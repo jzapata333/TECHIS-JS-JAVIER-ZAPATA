@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Spartan", monospace;
+}
+
+body {
+  background: #c1bdbd;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.search {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #6b6968;
+  border-radius: 8px;
+  color: #fff;
+  height: 50%;
+  margin-top: 1.5%;
+  margin-left: 40%;
+  padding-left: 5px;
+  width: 17%;
+  outline: none;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+}
+
+.search-loupe {
+  color: #6b6968;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 30.5%;
+  width: 20px;
+}
+
+.services-btn {
+  border: none;
+  width: 10%;
+  background: none;
+  cursor: pointer;
+}
+
+.services-pop {
+  cursor: pointer;
+  height: 35%;
+  padding-left: 90px;
+}
+.services-new {
+  cursor: pointer;
+  height: 30%;
+  padding-left: 110px;
+}
+
+.movie-banner {
+  width: 100%;
+}
+
+.heading {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.divider {
+  border-bottom: 1px solid #000;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.movie-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 3%;
+  margin-left: 5.5%;
+}
+
+.movie-container {
+  position: relative;
+  padding-top: 7%;
+}
+
+.movie-data {
+  display: flex;
+}
+
+.poster {
+  width: 90%;
+  height: 350px;
+}
+
+.movie-title {
+  padding-top: 5%;
+  font-size: 14px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.rating {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+.trailer-button {
+  position: relative;
+  background-color: #3b3b3b;
+  border: none;
+  border-radius: 8px;
+  box-shadow: -3px 4px 5px #808080;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 13px;
+  position: relative;
+  outline: none;
+  left: 90px;
+  bottom: 5px;
+}
+
+.trailer-button:hover {
+  background-color: #2b2b2b;
+}
+
+.fave-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 32%;
+  top: 2%;
+  outline: inherit;
+  opacity: 1;
+  z-index: 2;
+}
+
+.favorites-heart {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+}
+
+.favorites-bg {
+  position: absolute;
+  top: 20px;
+}
+
+footer {
+  border-top: 1px solid #000;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.footer-logo {
+  width: 10%;
+}
