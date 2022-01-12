@@ -68,6 +68,7 @@ body {
 
 .movie-banner {
   width: 100%;
+  height: auto;
 }
 
 .heading {
@@ -168,4 +169,112 @@ footer {
 
 .footer-logo {
   width: 10%;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1200px) {
+  img.movie-banner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .search {
+    visibility: hidden;
+  }
+  .services-pop {
+    position: absolute;
+    right: 12%;
+  }
+  .services-new {
+    position: absolute;
+    right: 3.5%;
+  }
+  .movie-contents {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .trailer-button {
+    left: 20% !important;
+  }
+  .footer-logo {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .search {
+    visibility: hidden;
+  }
+  .movie-contents {
+    grid-template-columns: 1fr 1fr;
+  }
+  .trailer-button {
+    left: 20% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .logo {
+    width: 45%;
+  }
+  .search {
+    visibility: hidden;
+  }
+  .search-loupe {
+    right: 35%;
+    top: 42%;
+  }
+  .services-pop {
+    left: 46%;
+    bottom: 28.5%;
+    position: absolute;
+    width: 15%;
+    height: auto;
+  }
+  .services-new {
+    left: 60%;
+    position: absolute;
+    width: 8%;
+    height: auto;
+  }
+  img.movie-banner {
+    width: 100%;
+  }
+  .heading {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .movie-contents {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .movie-container {
+    box-sizing: border-box;
+    flex: 1 !important;
+    position: relative;
+    left: 15%;
+    width: 80%;
+  }
+  .poster {
+    width: 85%;
+    height: 370px;
+    position: relative;
+  }
+  .fave-button {
+    top: 3%;
+    right: 40%;
+  }
+  .footer-logo {
+    width: 35%;
+    margin-bottom: 15%;
+  }
+  .trailer-button {
+    right: 50%;
+  }
 }
